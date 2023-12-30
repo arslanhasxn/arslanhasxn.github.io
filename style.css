@@ -3,6 +3,10 @@
     font-family: clash display;
     src: url(fonts/ClashDisplay-Regular.ttf);
 }
+@font-face {
+    font-family: clash display med;
+    src: url(fonts/ClashDisplay-Medium.ttf);
+}
 
 * {
     margin: 0;
@@ -107,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .workHeaderList:first-child {
-    font-weight: 500;
+    font-family: "clash display med";
 }
 
 .workHeaderList:last-child {
@@ -190,7 +194,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #aboutHeader {
-    font-family: "clash display";
+    font-family: "clash display med";
     font-size: 6.5rem;
     font-weight: 500;
 }
@@ -234,15 +238,18 @@ body::-webkit-scrollbar-thumb {
 
 .contactHeaderList:first-child {
     font-weight: 500;
+    font-family: "clash display med";
 }
 
 .contactHeaderList:first-child a, .contactHeaderList:first-child a:visited {
     color: #121212;
     text-decoration: none;
+    font-family: "clash display med";
 }
 
 .contactHeaderList:first-child a:hover {
     text-decoration: underline;
+    font-family: "clash display med";
 }
 
 .contactHeaderList:last-child {
