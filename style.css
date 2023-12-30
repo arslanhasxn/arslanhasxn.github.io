@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #F4F1EA;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #121212;
+    color: #F4F1EA;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #121212;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #F4F1EA;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #918f8b;
+    border-radius: 20px;
+    border: 3px solid #F4F1EA;
+}
+
+/* index section */
+
+#headingText {
+    display: block;
+    margin: auto;
+    width: 92vw;
+}
+
+#mainNav {
+    display: block;
+    width: 92vw;
+    margin: 3% auto 5.8%;
+}
+
+.navBar {
+    list-style-type: none;
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.leftNav {
+    margin-right: 3%;
+}
+
+.rightNav {
+    float: right;
+    margin-left: 3%;
+}
+
+.linksAnchor, .linksAnchor:visited {
+    text-decoration: none;
+    color: #121212;
+}
+
+.linksAnchor:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+    color: #121212;
+}
+
+#index_graphic {
+    display: block;
+    width: 92vw;
+    margin: 2.3% auto 2.4%;
+}
+
+/* work section */
+
+#work {
+    display: block;
+    width: 92vw;
+    margin: auto;
+}
+
+#workHeader {
+    margin: 0% auto 0%;
+    padding-top: 4.2%;
+    font-family: "clash display";
+}
+
+.workHeaderList {
+    list-style-type: none;
+    font-size: 6.5rem;
+    display: inline;
+    margin: 0%;
+}
+
+.workHeaderList:first-child {
+    font-weight: 500;
+}
+
+.workHeaderList:last-child {
+    float: right;
+}
+
+#row1 {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.row1list {
+    display: inline-block;
+}
+
+.row1list:last-child {
+    float: right;
+}
+
+.projectImage {
+    width: 44.68vw;
+    transition: 300ms;
+}
+
+.projectImage:hover {
+    outline: solid 4px #121212;
+    outline-offset: -4px;
+    border-radius: 0.5rem;
+    transition: 300ms;
+}
+
+.projectImageCaption {
+    list-style-type: none;
+    margin-top: 1.4%;
+
+}
+
+.projectImageCaptionList {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 2rem;
+    font-size: 2rem;
+
+}
+
+.projectImageCaptionList:last-child {
+    float: right;
+    font-size: 1.4rem;
+}
+
+.row2 {
+    margin-top: 2.4%;
+    margin-bottom: 2.6%;
+}
+
+.projectLinks, .projectLinks:visited {
+    color: #121212;
+}
+
+/* About Section */
+
+#about {
+    display: flex;
+    width: 92vw;
+    margin: auto;
+    margin-bottom: 2.6%;
+    padding-top: 4.2%;
+}
+
+.firstCol {
+    width: 50%;
+}
+
+#pfp {
+    width: 44.68vw;
+}
+
+.secondCol {
+    width: 50%;
+}
+
+#aboutHeader {
+    font-family: "clash display";
+    font-size: 6.5rem;
+    font-weight: 500;
+}
+
+.aboutHeaderList {
+    list-style-type: none;
+    width: 44.68vw;
+    float: right;
+    font-size: 1.85rem;
+    line-height: 1.2;
+}
+
+.aboutHeaderList li {
+    margin-bottom: 4.5%;
+}
+
+.item {
+    flex-basis: 100%;
+}
+
+/* Contact Section */
+
+#contact {
+    display: block;
+    width: 92vw;
+    margin: auto;
+    padding-top: 4.2%;
+}
+
+#contactHeader {
+    list-style-type: none;
+    font-family: "clash display";
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    vertical-align: text-bottom;
+}
+
+.contactHeaderList {
+    display: inline-block;
+}
+
+.contactHeaderList:first-child {
+    font-weight: 500;
+}
+
+.contactHeaderList:first-child a, .contactHeaderList:first-child a:visited {
+    color: #121212;
+    text-decoration: none;
+}
+
+.contactHeaderList:first-child a:hover {
+    text-decoration: underline;
+}
+
+.contactHeaderList:last-child {
+    float: right;
+    font-size: 4.3rem;
+}
+
+#footer {
+    display: flex;
+    width: 92vw;
+    margin: 2.3% auto 0%;
+    padding-bottom: 5%;
+    color: #F4F1EA;
+    background-color: #121212;
+    font-size: 2rem;
+}
+
+.foot1 {
+    display: flex;
+    width: 22.34vw;
+    padding-top: 2.3%;
+    padding-left: 3%;
+}
+
+.foot2 {
+    display: flex;
+    width: 22.34vw;
+    padding-top: 2.3%;
+    padding-left: 3%;
+    
+}
+
+.navLinks {
+    list-style-type: none;
+}
+
+.navLinks li a, .navLinks li a:visited {
+    color: #F4F1EA;
+    text-decoration: none;
+}
+
+.navLinks li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+}
+
+.navLinks li {
+    margin-bottom: 1.5rem;
+}
+
+.foot3 {
+    display: flex;
+    width: 47.32vw;
+    float: right;
+    padding-top: 3%;
+    padding-right: 3%;
+    justify-content: right;
+}
+
+#footerImage {
+    width: 30%;
+}
+
+#fin {
+    width: 92vw;
+    background-color: #121212;
+    margin-bottom: 0%;
+}
+
+#footFin {
+    width: 100%;
+    padding: 4.2rem 3% 0%;
+    margin-bottom: 0%;
+}
