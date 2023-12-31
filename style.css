@@ -212,6 +212,10 @@ body::-webkit-scrollbar-thumb {
     width: 44.68vw;
 }
 
+#bio li:last-child{
+    margin-bottom: 0%;
+}
+
 .secondCol {
     width: 44.68vw;
 }
