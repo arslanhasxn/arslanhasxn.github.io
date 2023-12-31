@@ -43,6 +43,15 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #F4F1EA;
 }
 
+/* max width container */
+#workspace {
+    /* max-width: 92vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 4vw;
+    margin-left: 4vw; */
+}
+
 /* index section */
 
 #headingText {
@@ -182,15 +191,50 @@ body::-webkit-scrollbar-thumb {
 }
 
 .firstCol {
-    width: 50%;
+    width: 47.32vw;
+}
+
+#aboutHeader {
+    font-family: "clash display med";
+    font-size: 6.5rem;
+    font-weight: 500;
+    margin-bottom: 16%;
+}
+
+#bio {
+    list-style-type: none;
+    font-size: 1.85rem;
+    line-height: 1.2;
+}
+
+#bio li {
+    margin-bottom: 4.5%;
+    width: 44.68vw;
+}
+
+.secondCol {
+    width: 44.68vw;
 }
 
 #pfp {
     width: 44.68vw;
 }
 
-.secondCol {
-    width: 50%;
+/* .firstCol {
+    display: flex;
+    width: 51.43478260869565%;
+    width: 47.32vw;
+} */
+
+/* .secondCol {
+    display: block;
+    width: 48.56521739130435%;
+    align-items: right;
+    justify-content: flex-end;
+} */
+
+/* #pfp {
+    width: 100%;
 }
 
 #aboutHeader {
@@ -202,7 +246,7 @@ body::-webkit-scrollbar-thumb {
 .aboutHeaderList {
     list-style-type: none;
     width: 44.68vw;
-    float: right;
+    float: left;
     font-size: 1.85rem;
     line-height: 1.2;
 }
@@ -213,7 +257,7 @@ body::-webkit-scrollbar-thumb {
 
 .item {
     flex-basis: 100%;
-}
+} */
 
 /* Contact Section */
 
